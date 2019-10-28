@@ -1,0 +1,727 @@
+/* Page two */
+/* media querey for iphone 6/7/8 */
+/* structuaral changes with hero word sizing. */
+/* limiting hover options to photos only */
+@media screen and (min-width: 480px) {
+
+  .gridContainerpg2 {
+    margin: 1vmin 3vmin 1vmin 3vmin;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+  }
+  /* third grid container in total*/
+
+  .title2 {
+    grid-column-end: span 8;
+    height: 50vmin;
+    text-align: center;
+    margin-top: 4vmin;
+    margin-bottom: 0;
+  }
+
+  .titleStyle2 {
+    color: #7297A6;
+    background-image: url('https://media.buzzle.com/media/images-en/photos/conceptual/fabric/1200-3048701-white-silk.jpg');
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 20vmin;
+    line-height: 1.5vmin;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* airy title */
+  }
+
+  .titleStyle2:hover {
+    color: none;
+  }
+
+  /* menu */
+  .Nav {
+    display: grid;
+    grid-column-end: span 8;
+  }
+
+  .Navbar {
+    display: flex;
+    justify-content: center;
+    font-size: 5vmin;
+  }
+
+  /* creating line through current page that s open for user ease */
+  .Linkpg2 {
+    letter-spacing: 1vmin;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #7297A6;
+    text-decoration: none;
+  }
+
+  .Linkpg22 {
+    letter-spacing: 1vmin;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #7297A6;
+    text-decoration: line-through;
+  }
+
+
+  /*visual content for page 2 starts here*/
+  .Airy {
+    display: grid;
+    grid-column-end: span 4;
+    height: 50vmin;
+    width: 35vmin;
+    border-style: solid;
+    border-color: #fff;
+    overflow: hidden;
+    /*photo placement */
+  }
+
+  /* photos for clothing */
+  .Image1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/236x/d1/7d/cd/d17dcdb960aa6f56e2e8ec0b99541372.jpg');
+    filter: grayscale(100%);
+  }
+
+  /* product description + price */
+  .Blerb1 {
+    display: grid;
+    grid-column-start: 1;
+  }
+
+  .blerb1 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 5vmin;
+    line-height: 6vmin;
+  }
+
+  .Image1:hover {
+    filter: none;
+  }
+
+  .Image2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/236x/81/b0/da/81b0da45ba1e5560a927a4efc16997cb.jpg');
+    grid-column-start: 4;
+    filter: grayscale(100%);
+  }
+
+  .Blerb2 {
+    display: grid;
+    grid-column-start: 4;
+  }
+
+  .blerb2 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 5vmin;
+    line-height: 6vmin;
+  }
+
+  .Image2:hover {
+    filter: none;
+  }
+
+  .Image3 {
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/564x/61/f9/c7/61f9c766def128e4b606208189a665ff.jpg');
+    grid-column-start: 7;
+    filter: grayscale(100%);
+  }
+
+  .Blerb3 {
+    display: grid;
+    grid-column-start: 7;
+  }
+
+  .blerb3 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 5vmin;
+    line-height: 6vmin;
+  }
+
+  .Image3:hover {
+    filter: none;
+  }
+
+  .Image4 {
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/236x/7c/69/01/7c69011b6431d7d76961ccb7f89e5a77.jpg');
+    filter: grayscale(100%);
+  }
+
+  .Blerb4 {
+    display: grid;
+    grid-column-start: 1;
+  }
+
+  .blerb4 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 5vmin;
+    line-height: 6vmin;
+  }
+
+  .Image4:hover {
+    filter: none;
+  }
+
+  .Image5 {
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/236x/c4/d0/2f/c4d02f4e28174426de7e0d0e18d8a5d7.jpg');
+    grid-column-start: 4;
+    filter: grayscale(100%);
+  }
+
+  .Blerb5 {
+    display: grid;
+    grid-column-start: 4;
+  }
+
+  .blerb5 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 5vmin;
+    line-height: 6vmin;
+  }
+
+  .Image5:hover {
+    filter: none;
+  }
+
+  .Image6 {
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/236x/ef/09/58/ef0958a0561b6cce858cd76c04c9f7da.jpg');
+    grid-column-start: 7;
+    filter: grayscale(100%);
+  }
+
+  .Blerb6 {
+    display: grid;
+    grid-column-start: 7;
+  }
+
+  .blerb6 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 5vmin;
+    line-height: 6vmin;
+  }
+
+  .Image6:hover {
+    filter: none;
+  }
+
+  .Image7 {
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/236x/9b/8a/85/9b8a8562a1c3574899e2eec23bcadbb0.jpg');
+    filter: grayscale(100%);
+  }
+
+  .Blerb7 {
+    display: grid;
+    grid-column-start: 1;
+  }
+
+  .blerb7 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 5vmin;
+    line-height: 6vmin;
+  }
+
+  .Image7:hover {
+    filter: none;
+  }
+
+  .Image8 {
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/236x/0a/fd/ee/0afdee6aad67e153eb0742b1674a75e3.jpg');
+    grid-column-start: 4;
+    filter: grayscale(100%);
+  }
+
+  .Blerb8 {
+    display: grid;
+    grid-column-start: 4;
+  }
+
+  .blerb8 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 5vmin;
+    line-height: 6vmin;
+  }
+
+  .Image8:hover {
+    filter: none;
+  }
+
+  .Image9 {
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/236x/dc/b6/08/dcb6084652bf8b8f85ec6eca7ac28263.jpg');
+    grid-column-start: 7;
+    filter: grayscale(100%);
+  }
+
+  .Blerb9 {
+    display: grid;
+    grid-column-start: 7;
+  }
+
+  .blerb9 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 5vmin;
+    line-height: 6vmin;
+  }
+
+  .Image9:hover {
+    filter: none;
+  }
+  /* END of airy photo, product name and proce */
+
+  /* hero text begins here */
+  .Her0 {
+    display: grid;
+    padding-top: 15vmin;
+  }
+
+  .everything {
+    padding-left: 5vmin;
+    font-size: 13vmin;
+    color: #7297A6;
+    padding-top: 15vmin;
+    grid-column-end: span 2;
+    margin: 0;
+    font-family: 'Big Shoulders Text', cursive;
+  }
+
+  .weird {
+    padding-top: 15vmin;
+    margin: 0;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 13vmin;
+    color: #7297A6;
+    grid-column-end: span 1;
+  }
+
+  .everything2 {
+    padding-left: 5vmin;
+    font-size: 13vmin;
+    color: #7297A6;
+    margin: 0;
+    padding-bottom: 15vmin;
+    grid-column-end: span 2;
+    margin: 0;
+    font-family: 'Big Shoulders Text', cursive;
+  }
+
+  .free {
+    padding-top: 15vmin;
+    margin: 0;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 13vmin;
+    color: #7297A6;
+    grid-column-end: span 1;
+  }
+
+  .everything3 {
+    margin: 0;
+    padding-bottom: 15vmin;
+    grid-column-end: span 2;
+    margin: 0;
+    font-family: 'Big Shoulders Text', cursive;
+    padding-left: 5vmin;
+    font-size: 13vmin;
+    color: #7297A6;
+  }
+
+  .human {
+    padding-top: 15vmin;
+    margin: 0;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 13vmin;
+    color: #7297A6;
+    grid-column-end: span 1;
+  }
+
+  .Her0:hover {
+    color: #7297A6;
+  }
+
+  .footerSize {
+    display: grid;
+    grid-column-end: span 8;
+    height: 15vh;
+  }
+
+  .FooterStyle{
+    font-size: 3vmin;
+    opacity: 0.4;
+    background-color: #7297A6;
+    color: #fff;
+    background-position: center;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+.gridContainerpg2 {
+  margin: 1vmin 3vmin 1vmin 3vmin;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+/* third grid container in total*/
+
+.title2 {
+  grid-column-end: span 8;
+  height: 50vmin;
+  text-align: center;
+  margin-top: 4vmin;
+  margin-bottom: 0;
+}
+
+.titleStyle2 {
+  color: #C0C0C0;
+  /* airy title */
+}
+
+.titleStyle2:hover {
+  color: #7297A6;
+}
+
+/* menu */
+.Nav {
+  display: grid;
+  grid-column-end: span 8;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: center;
+  font-size: 5vmin;
+}
+
+/* creating line through current page that s open for user ease */
+.Linkpg2 {
+  letter-spacing: 1vmin;
+  font-family: 'Big Shoulders Text', cursive;
+  color: #7297A6;
+  text-decoration: none;
+}
+
+.Linkpg22 {
+  letter-spacing: 1vmin;
+  font-family: 'Big Shoulders Text', cursive;
+  color: #7297A6;
+  text-decoration: line-through;
+}
+
+.Linkpg2:hover{
+  color: #C0C0C0;
+}
+
+/*visual content for page 2 starts here*/
+.Airy {
+  display: grid;
+  grid-column-end: span 4;
+  height: 50vmin;
+  width: 35vmin;
+  border-style: solid;
+  border-color: #fff;
+  overflow: hidden;
+  /*photo placement */
+}
+
+/* photos for clothing */
+.Image1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://i.pinimg.com/236x/d1/7d/cd/d17dcdb960aa6f56e2e8ec0b99541372.jpg');
+  filter: grayscale(100%);
+}
+
+/* product description + price */
+.Blerb1 {
+  display: grid;
+  grid-column-start: 1;
+}
+
+.blerb1 {
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 5vmin;
+  line-height: 6vmin;
+}
+
+.Image1:hover {
+  filter: none;
+}
+
+.Image2 {
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://i.pinimg.com/236x/81/b0/da/81b0da45ba1e5560a927a4efc16997cb.jpg');
+  grid-column-start: 4;
+  filter: grayscale(100%);
+}
+
+.Blerb2 {
+  display: grid;
+  grid-column-start: 4;
+}
+
+.blerb2 {
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 5vmin;
+  line-height: 6vmin;
+}
+
+.Image2:hover {
+  filter: none;
+}
+
+.Image3 {
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://i.pinimg.com/564x/61/f9/c7/61f9c766def128e4b606208189a665ff.jpg');
+  grid-column-start: 7;
+  filter: grayscale(100%);
+}
+
+.Blerb3 {
+  display: grid;
+  grid-column-start: 7;
+}
+
+.blerb3 {
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 5vmin;
+  line-height: 6vmin;
+}
+
+.Image3:hover {
+  filter: none;
+}
+
+.Image4 {
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://i.pinimg.com/236x/7c/69/01/7c69011b6431d7d76961ccb7f89e5a77.jpg');
+  filter: grayscale(100%);
+}
+
+.Blerb4 {
+  display: grid;
+  grid-column-start: 1;
+}
+
+.blerb4 {
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 5vmin;
+  line-height: 6vmin;
+}
+
+.Image4:hover {
+  filter: none;
+}
+
+.Image5 {
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://i.pinimg.com/236x/c4/d0/2f/c4d02f4e28174426de7e0d0e18d8a5d7.jpg');
+  grid-column-start: 4;
+  filter: grayscale(100%);
+}
+
+.Blerb5 {
+  display: grid;
+  grid-column-start: 4;
+}
+
+.blerb5 {
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 5vmin;
+  line-height: 6vmin;
+}
+
+.Image5:hover {
+  filter: none;
+}
+
+.Image6 {
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://i.pinimg.com/236x/ef/09/58/ef0958a0561b6cce858cd76c04c9f7da.jpg');
+  grid-column-start: 7;
+  filter: grayscale(100%);
+}
+
+.Blerb6 {
+  display: grid;
+  grid-column-start: 7;
+}
+
+.blerb6 {
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 5vmin;
+  line-height: 6vmin;
+}
+
+.Image6:hover {
+  filter: none;
+}
+
+.Image7 {
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://i.pinimg.com/236x/9b/8a/85/9b8a8562a1c3574899e2eec23bcadbb0.jpg');
+  filter: grayscale(100%);
+}
+
+.Blerb7 {
+  display: grid;
+  grid-column-start: 1;
+}
+
+.blerb7 {
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 5vmin;
+  line-height: 6vmin;
+}
+
+.Image7:hover {
+  filter: none;
+}
+
+.Image8 {
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://i.pinimg.com/236x/0a/fd/ee/0afdee6aad67e153eb0742b1674a75e3.jpg');
+  grid-column-start: 4;
+  filter: grayscale(100%);
+}
+
+.Blerb8 {
+  display: grid;
+  grid-column-start: 4;
+}
+
+.blerb8 {
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 5vmin;
+  line-height: 6vmin;
+}
+
+.Image8:hover {
+  filter: none;
+}
+
+.Image9 {
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://i.pinimg.com/236x/dc/b6/08/dcb6084652bf8b8f85ec6eca7ac28263.jpg');
+  grid-column-start: 7;
+  filter: grayscale(100%);
+}
+
+.Blerb9 {
+  display: grid;
+  grid-column-start: 7;
+}
+
+.blerb9 {
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 5vmin;
+  line-height: 6vmin;
+}
+
+.Image9:hover {
+  filter: none;
+}
+/* END of airy photo, product name and proce */
+
+/* hero text begins here */
+.Her0 {
+  display: grid;
+  padding-top: 15vmin;
+}
+
+.everything {
+  padding-top: 15vmin;
+  grid-column-end: span 2;
+  margin: 0;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 15vmin;
+  color: #BFBFBF;
+}
+
+.weird {
+  padding-top: 15vmin;
+  margin: 0;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 15vmin;
+  color: #BFBFBF;
+  grid-column-end: span 1;
+}
+
+.everything2 {
+  margin: 0;
+  padding-bottom: 15vmin;
+  grid-column-end: span 2;
+  margin: 0;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 15vmin;
+  color: #BFBFBF;
+}
+
+.free {
+  padding-top: 15vmin;
+  margin: 0;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 15vmin;
+  color: #BFBFBF;
+  grid-column-end: span 1;
+}
+
+.everything3 {
+  margin: 0;
+  padding-bottom: 15vmin;
+  grid-column-end: span 2;
+  margin: 0;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 15vmin;
+  color: #BFBFBF;
+}
+
+.human {
+  padding-top: 15vmin;
+  margin: 0;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 15vmin;
+  color: #BFBFBF;
+  grid-column-end: span 1;
+}
+
+.Her0:hover {
+  color: #7297A6;
+}
+
+.footerSize {
+  display: grid;
+  grid-column-end: span 8;
+  height: 15vh;
+}
+
+.FooterStyle{
+  background-color: #F2F2F2;
+  background-position: center;
+  text-align: center;
+  font-size: 2vmin;
+  font-family: 'Black Ops One', cursive;
+  opacity: 0.4;
+}
+}
